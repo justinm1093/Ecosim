@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d19b62a7-6ad9-4733-804e-042c36e64e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{cad4a7dc-05f2-4320-a54d-dac3bbda857d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{701a652f-9864-432d-abc2-b1c58cb601c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuralNetwork">
+      <UniqueIdentifier>{22efaa9a-f2e7-4945-916e-9905b505db41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{32054136-5917-4a3b-8486-c113dd7d0813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Resources">
+      <UniqueIdentifier>{b26fdb05-5c69-4a08-a224-0b6ce6789107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Agents">
+      <UniqueIdentifier>{eca88c9f-28f2-4d49-a846-0d0d06c0f11c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\main.cpp" />
+    <ClCompile Include="..\source\pch.cpp" />
+    <ClCompile Include="..\source\Random.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Simulation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SimObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Renderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Environment.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Genome.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NeuralNetwork.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Gene.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Neuron.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EventQueue.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SimMath.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AgentManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\IPublisher.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PhysicalCircle.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SimClock.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\IResource.cpp">
+      <Filter>Objects\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\IResourceEffect.cpp">
+      <Filter>Objects\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ResourceEffects.cpp">
+      <Filter>Objects\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Agent.cpp">
+      <Filter>Objects\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Predator.cpp">
+      <Filter>Objects\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Prey.cpp">
+      <Filter>Objects\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ISimComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\pch.h" />
+    <ClInclude Include="..\source\Random.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Simulation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SimObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Renderer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Environment.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Genome.h">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NeuralNetwork.h">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Gene.h">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Neuron.h">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\EventQueue.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\EventArgs.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\RTTI.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SimMath.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AgentManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\IPublisher.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ISubscriber.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PhysicalCircle.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SimClock.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\IResource.h">
+      <Filter>Objects\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\IResourceEffect.h">
+      <Filter>Objects\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Resource.h">
+      <Filter>Objects\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ResourceEffects.h">
+      <Filter>Objects\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Agent.h">
+      <Filter>Objects\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Predator.h">
+      <Filter>Objects\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Prey.h">
+      <Filter>Objects\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ISimComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\source\Event.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="..\source\Resource.inl">
+      <Filter>Objects\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
